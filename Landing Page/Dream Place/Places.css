@@ -1,0 +1,150 @@
+body {
+    background-color: #dbf9f0;
+}
+
+.place-content {
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.destination-article {
+    background-color: #f7f9f7;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 4px 16px rgba(33, 1, 36, 0.1);
+}
+
+.destination-title {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: #210124;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.section-title {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: #750D37;
+    margin-bottom: 24px;
+}
+
+.scenery-section {
+    margin-bottom: 48px;
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 24px;
+    margin-bottom: 32px;
+}
+
+.gallery-item {
+    margin: 0;
+}
+
+.gallery-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(33, 1, 36, 0.15);
+}
+
+.image-caption {
+    font-family: Montserrat, sans-serif;
+    margin-top: 12px;
+    text-align: center;
+    color: #210124;
+    font-style: italic;
+}
+
+.content-block {
+    margin-bottom: 40px;
+}
+
+.content-block p {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 16px;
+    line-height: 1.6;
+    color: #210124;
+}
+
+.subsection-title {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #750D37;
+    margin: 24px 0 16px;
+}
+
+.travel-list {
+    list-style-type: none;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.travel-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.travel-list li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: #B3DEC1;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+    margin-top: 24px;
+}
+
+.place-card {
+    background-color: #f7f9f7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(33, 1, 36, 0.1);
+}
+
+.place-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.place-name {
+    font-family: Georgia, serif;
+    font-size: 24px;
+    color: #210124;
+    margin: 16px;
+}
+
+.place-description {
+    padding: 0 16px 16px;
+    color: #210124;
+    line-height: 1.5;
+}
+
+.back-button {
+    display: inline-block;
+    color: #750d37;
+    text-decoration: none;
+    font-family: "Georgia", serif;
+    margin: 20px;
+    padding: 8px 16px;
+    border: 2px solid #750d37;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #750d37;
+    color: #f7f9f7;
+  }
